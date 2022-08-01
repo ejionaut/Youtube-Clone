@@ -1,7 +1,7 @@
 # Youtube-Clone
 Based of [SuperSimpleDev's HTML CSS Tutorial](https://www.youtube.com/watch?v=G3e-cpL7ofc)
 
-## ScreenShot
+## Screeshot
 ![Youtube Clone IMG](https://github.com/ejionaut/Youtube-Clone/blob/main/Screenshot%202022-08-01%20at%2023-18-52%20Youtube.com%20Clone.png)
 
 ### How it works
