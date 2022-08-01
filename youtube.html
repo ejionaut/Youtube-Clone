@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Youtube.com Clone</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="CSS-styles/general.css">
+        <link rel="stylesheet" href="CSS-styles/header.css">
+        <link rel="stylesheet" href="CSS-styles/video.css">
+        <link rel="stylesheet" href="CSS-styles/sidebar.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="Left-header">
+                <img  class="hamburger-menu" src="Icons/hamburger-menu.svg">
+                <img  class="youtube-logo" src="Icons/youtube-logo.svg">
+            </div>
+            <div class="Center-header">
+                <input class="searchBar" type="text" placeholder="Search">
+                <button class="searchButton">
+                    <img class="search" src="Icons/search.svg">
+                    <div class="tooltip">Search</div>
+                </button>
+                <button class="searchVoiceButton">
+                    <img class="voice" src="Icons/voice-search-icon.svg">
+                    <div class="tooltip">Search with your voice</div>
+                </button>
+            </div>
+            <div class="Right-header">
+                <div class="upload-icon-container">
+                    <img class="upload-icon" src="Icons/upload.svg">
+                    <div class="tooltip">Create</div>
+                </div>
+                <div class="youtubeApps-icon-container">
+                    <img class="apps-icon" src="Icons/youtube-apps.svg">
+                    <div class="tooltip">Youtube Apps</div>
+                </div>
+                <div class="notifications-icon-container">
+                    <img class="notif-icon" src="Icons/notifications.svg">
+                    <div class="notifications-count">3</div>
+                    <div class="tooltip">Notifications</div>
+                </div>
+                <img class="current-user" src="channelpictures/received_444684282825385.jpeg">
+            </div>
+        </header>
+        <nav class="sidebar">
+            <div class="sidebar-link">
+                <img src="Icons/home.svg">
+                <div>Home</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="Icons/explore.svg">
+                <div>Explore</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="Icons/subscriptions.svg">
+                <div>Subscriptions</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="Icons/originals.svg">
+                <div>Originals</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="Icons/youtube-music.svg">
+                <div>YouTube Music</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="Icons/library.svg">
+                <div>Library</div>
+            </div>
+        </nav>
+        
+        <!--This is the video area-->
+        <main>
+            <section class="Video-Grid">
+                <div class="video-preview">
+                    <div class="ThumbnailRow">
+                        <a href="https://www.youtube.com/watch?v=7oVKvxKTp2M">
+                            <img class="thumbnail" src="images/hqdefault.png">
+                            </a>
+                        <div class= "video-time">6:29</div>
+                    </div>
+                    <div class="ChannelDesc">
+                        <div class="ChannelPic">
+                            <a href="https://www.youtube.com/c/Psych2go">
+                                <img class= "ChannelProfilePic" src="channelpictures/channels4_profile.jpg">
+                            </a>
+                        </div>
+                        <div class="Video-Info">
+                            <p class="VideoTittle"> How To Know If They Like You Back </p>
+                            <div class="VideoAuthor">
+                            <p class="ChannelTittle">Psych2Go</p>
+                             </div>
+                            <div class="VideoRate">
+                            <p class="ChannelInfo"> 100k views &#183 3 months ago</p>
+                            </div>
+                            </div>
+                        </div>
+                     </div>
+        
+            <div class="video-preview">
+                 <div class="ThumbnailRow">
+                    <a href="https://www.youtube.com/watch?v=3yRJJbLIXS0">
+                        <img class="thumbnail" src="images/hq720_0.png">
+                    </a>
+                    <div class= "video-time">1:54:18</div>
+                </div>
+                <div class="ChannelDesc">
+                <div class="ChannelPic">
+                    <a href="https://www.youtube.com/channel/UCKu59gTZ_rdEmerdx5rV4Yg">
+                        <img class= "ChannelProfilePic" src="channelpictures/channels4_profile (1).jpg">    
+                    </a>
+                    </div>
+                    <div class="Video-Info">
+                        <p class="VideoTittle">【DEBUT 2.0 STREAM】Hey, again【NIJISANJI EN | Ren Zotto】</p>
+                        <div class="VideoAuthor">
+                        <p class="ChannelTittle">Ren Zotto</p>
+                            </div>
+                        <div class="VideoRate">
+                        <p class="ChannelInfo"> 130k views &#183 3 hours ago</p>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+        
+                     <div class="video-preview">
+                        <div class="ThumbnailRow">
+                            <a href="https://www.youtube.com/watch?v=4i8fMEFit9Q">
+                                <img class="thumbnail" src="images/hq720_2.png">
+                            </a>
+                            <div class= "video-time">2:01:30</div>
+                        </div>
+                        <div class="ChannelDesc">
+                            <div class="ChannelPic">
+                                <a href="https://www.youtube.com/c/39daphvods">
+                                    <img class= "ChannelProfilePic" src="channelpictures/unnamed.jpg">
+                                </a>
+                            </div>
+                            <div class="Video-Info">
+                                <p class="VideoTittle">39daph Draws &#35;211</p>
+                                <div class="VideoAuthor">
+                                <p class="ChannelTittle">39Ddaph vods</p>
+                                 </div>
+                                <div class="VideoRate">
+                                <p class="ChannelInfo"> 1.6k views &#183 Jul 26, 2022 </p>
+                                </div>
+                                </div>
+                            </div>
+                         </div>
+            
+                    <div class="video-preview">
+                        <div class="ThumbnailRow">
+                            <a href="https://www.youtube.com/watch?v=DpN_FYVBJu4">
+                                <img class="thumbnail" src="images/hqdefault_live.png">
+                            </a>
+                            <div class= "video-time">6:04:26</div>
+                        </div>
+                        <div class="ChannelDesc">
+                            <div class="ChannelPic">
+                                <a href="https://www.youtube.com/user/Sykkuno">
+                                    <img class= "ChannelProfilePic" src="channelpictures/channels4_profile (2).jpg">
+                                </a>
+                            </div>
+                            <div class="Video-Info">
+                                <p class="VideoTittle">YUNO RETURNS !?! THEN MINECRAFT AFTER</p>
+                                <div class="VideoAuthor">
+                                <p class="ChannelTittle">Sykkuno</p>
+                                 </div>
+                                <div class="VideoRate">
+                                <p class="ChannelInfo"> 266k views &#183 8 hours ago</p>
+                                </div>
+                                </div>
+                            </div>
+                         </div>
+        
+                         <div class="video-preview">
+                            <div class="ThumbnailRow">
+                                <img class="thumbnail" src="images/hq720_3.png">
+                                <div class= "video-time">5:27</div>
+                            </div>
+                            <div class="ChannelDesc">
+                                <div class="ChannelPic">
+                                    <img class= "ChannelProfilePic" src="channelpictures/unnamed (1).jpg">
+                                </div>
+                                <div class="Video-Info">
+                                    <p class="VideoTittle">"Billionaire 39daph underpays and unrecognizes her editors" | clips</p>
+                                    <div class="VideoAuthor">
+                                    <p class="ChannelTittle">Clipony</p>
+                                     </div>
+                                    <div class="VideoRate">
+                                    <p class="ChannelInfo"> 10k views &#183 6 days ago</p>
+                                    </div>
+                                    </div>
+                                </div>
+                             </div>
+                
+                            <div class="video-preview">
+                                <div class="ThumbnailRow">
+                                    <img class="thumbnail" src="images/hqdefault_0.png">
+                                    <div class= "video-time">3:39:18</div>
+                                </div>
+                                <div class="ChannelDesc">
+                                    <div class="ChannelPic">
+                                        <img class= "ChannelProfilePic" src="channelpictures/channels4_profile (3).jpg">
+                                    </div>
+                                    <div class="Video-Info">
+                                        <p class="VideoTittle"> Cosmic encounter with「ILUNA」✨ NIJISANJI EN VTuber Debut Program hosted by Selen & Alban</p>
+                                        <div class="VideoAuthor">
+                                        <p class="ChannelTittle">NIJISANJI EN Official</p>
+                                        </div>
+                                        <div class="VideoRate">
+                                        <p class="ChannelInfo"> 1M views &#183 a day ago</p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                        <div class="video-preview">
+                            <div class="ThumbnailRow">
+                                <img class="thumbnail" src="images/hq720_4.png">
+                                <div class= "video-time">1:18</div>
+                            </div>
+                            <div class="ChannelDesc">
+                                <div class="ChannelPic">
+                                    <img class= "ChannelProfilePic" src="channelpictures/rere.jpg">
+                                </div>
+                                <div class="Video-Info">
+                                    <p class="VideoTittle"> Yuno COMPLETES DDR HACK For the CLEANBOIS</p>
+                                    <div class="VideoAuthor">
+                                    <p class="ChannelTittle">vitalFY</p>
+                                     </div>
+                                    <div class="VideoRate">
+                                    <p class="ChannelInfo"> 9k views &#183 Jul 26, 2022</p>
+                                    </div>
+                                    </div>
+                                </div>
+                             </div>
+    
+                        <div class="video-preview">
+                            <div class="ThumbnailRow">
+                                <img class="thumbnail" src="images/hq720_5.png">
+                                <div class= "video-time">0:43</div>
+                            </div>
+                            <div class="ChannelDesc">
+                                <div class="ChannelPic">
+                                    <img class= "ChannelProfilePic" src="channelpictures/channels4_3profile.jpg">
+                                </div>
+                                <div class="Video-Info">
+                                    <p class="VideoTittle">Shorto?</p>
+                                    <div class="VideoAuthor">
+                                    <p class="ChannelTittle">Vtubers Trash</p>
+                                     </div>
+                                    <div class="VideoRate">
+                                    <p class="ChannelInfo"> 200k views &#183 Jul 13, 2022</p>
+                                    </div>
+                                    </div>
+                                </div>
+                             </div>
+    
+                        <div class="video-preview">
+                            <div class="ThumbnailRow">
+                                <img class="thumbnail" src="images/hqdefault_1.png">
+                                <div class= "video-time">5:16:18</div>
+                            </div>
+                            <div class="ChannelDesc">
+                                <div class="ChannelPic">
+                                    <img class= "ChannelProfilePic" src="channelpictures/channels4_profile33.jpg">
+                                </div>
+                                <div class="Video-Info">
+                                    <p class="VideoTittle">【7/1/2022】VALORANT DATE NIGHT with Shu and Minase ♡【EN / JP】</p>
+                                    <div class="VideoAuthor">
+                                    <p class="ChannelTittle">Shoto's Twitch VODs</p>
+                                     </div>
+                                    <div class="VideoRate">
+                                    <p class="ChannelInfo"> 18k views &#183 Three days ago</p>
+                                    </div>
+                                    </div>
+                                </div>
+                             </div>
+    
+                        <div class="video-preview">
+                            <div class="ThumbnailRow">
+                                <img class="thumbnail" src="images/hqdefault_2.png">
+                                <div class= "video-time">5:43</div>
+                            </div>
+                            <div class="ChannelDesc">
+                                <div class="ChannelPic">
+                                    <img class= "ChannelProfilePic" src="channelpictures/channels4_profile (4).jpg">
+                                </div>
+                                <div class="Video-Info">
+                                    <p class="VideoTittle">Finana and Mysta being seison't [NIJISANJI EN]</p>
+                                    <div class="VideoAuthor">
+                                    <p class="ChannelTittle">Lionibug</p>
+                                     </div>
+                                    <div class="VideoRate">
+                                    <p class="ChannelInfo"> 143k views &#183 Two day ago</p>
+                                    </div>
+                                    </div>
+                                </div>
+                             </div>
+    
+                        <div class="video-preview">
+                            <div class="ThumbnailRow">
+                                <img class="thumbnail" src="images/hq720_6.png">
+                                <div class= "video-time">0:08</div>
+                            </div>
+                            <div class="ChannelDesc">
+                                <div class="ChannelPic">
+                                    <a href="https://www.youtube.com/channel/UCKu59gTZ_rdEmerdx5rV4Yg">
+                                        <img class= "ChannelProfilePic" src="channelpictures/channels4_profile (1).jpg">    
+                                    </a>
+                                </div>
+                                <div class="Video-Info">
+                                    <p class="VideoTittle">oops.. hello :)</p>
+                                    <div class="VideoAuthor">
+                                    <p class="ChannelTittle">Ren Zotto 【NIJISANJI EN】</p>
+                                     </div>
+                                    <div class="VideoRate">
+                                    <p class="ChannelInfo"> 135k views &#183 Jul 21, 2022</p>
+                                    </div>
+                                    </div>
+                                </div>
+                             </div>
+    
+                        <div class="video-preview">
+                            <div class="ThumbnailRow">
+                                <img class="thumbnail" src="images/hqdefault_3.png">
+                                <div class= "video-time">1:38</div>
+                            </div>
+                            <div class="ChannelDesc">
+                                <div class="ChannelPic">
+                                    <img class= "ChannelProfilePic" src="channelpictures/channels4_profile (5).jpg">
+                                </div>
+                                <div class="Video-Info">
+                                    <p class="VideoTittle">【Shxtou / Shoto | Valkyrae】rae and her morning puppy streamer</p>
+                                    <div class="VideoAuthor">
+                                    <p class="ChannelTittle">aohoshi</p>
+                                     </div>
+                                    <div class="VideoRate">
+                                    <p class="ChannelInfo"> 43k views &#183 July 11, 2022</p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                    </section> 
+        </main>       
+    </body>
+</html>
